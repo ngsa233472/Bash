@@ -1,0 +1,16 @@
+[core]
+        editor = vim
+[init]
+        defaultBranch = main
+[color]
+        ui = auto
+[help]
+        autocorrect = 1
+[credential]
+        helper = cache
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        ci = commit
+        lg = log --oneline --graph --decorate --all
