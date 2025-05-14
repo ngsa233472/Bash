@@ -1,1 +1,1 @@
-colorscheme morning
+#
