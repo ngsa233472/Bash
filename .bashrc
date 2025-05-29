@@ -5,6 +5,7 @@ export EDITOR=vi
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=10000
 export HISTFILESIZE=20000
+export HISTTIMEFORMAT="%F %T "
 
 # Color prompt
 force_color_prompt=yes
