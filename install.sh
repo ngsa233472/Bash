@@ -6,3 +6,4 @@ cp ./.bash_functions ~/
 cp ./.bash_logout ~/
 cp ./.bash_profile ~/
 cp ./.gitconfig ~/
+
