@@ -7,6 +7,11 @@ export HISTSIZE=10000
 export HISTFILESIZE=20000
 export HISTTIMEFORMAT="%F %T "
 
+# Used for Setup. Empty file if done
+if [ -f "$HOME/.config/env/setup.sh" ]; then
+    . "$HOME/.config/env/setup.sh"
+fi
+
 # Color prompt
 force_color_prompt=yes
 if [ -n "$force_color_prompt" ]; then
