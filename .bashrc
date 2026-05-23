@@ -6,6 +6,8 @@ export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=10000
 export HISTFILESIZE=20000
 export HISTTIMEFORMAT="%F %T "
+export KICAD_CONFIG_HOME=/mnt/nas/kicad/config
+export KICAD_DOCUMENTS_HOME=/mnt/nas/kicad/docs
 
 # Used for Setup. Empty file if done
 if [ -f "$HOME/.config/env/setup.sh" ]; then
@@ -31,3 +33,6 @@ fi
 if [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
 fi
+
+PROMPT_COMMAND='echo -ne "\033]0;${USER}@$(hostname): $(hostname -I | awk "{print \$1}")\007"'
+
