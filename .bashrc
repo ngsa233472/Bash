@@ -1,7 +1,9 @@
 # ~/.bashrc
 
 # Set some default environment variables
-export EDITOR=vi
+
+export EDITOR=vim
+export VISUAL=vim
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=10000
 export HISTFILESIZE=20000

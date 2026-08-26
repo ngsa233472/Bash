@@ -9,7 +9,6 @@ alias update='sudo apt update && sudo apt upgrade'
 alias cls='clear'
 alias ..='cd ..'
 alias ...='cd ../..'
-alias please='sudo $(history -p !!)'  # rerun last command with sudo
 alias h=history
 alias c=clear
 alias gs='git status'
